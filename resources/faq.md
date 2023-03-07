@@ -5,9 +5,9 @@ sidebar: auto
 
 # 常用
 
-配置、命令
+## 配置命令
 
-## meilisearch
+### meilisearch
 
 meilisearch是一个用rust写的搜索引擎
 
@@ -21,7 +21,7 @@ MEILI_MASTER_KEY指定token名称
 
 [项目地址](https://github.com/meilisearch/meilisearch)
 
-## docker
+### docker
 
 镜像重命名
 
@@ -29,9 +29,9 @@ MEILI_MASTER_KEY指定token名称
 docker tag yan/kkfileview:4.1.1 yan160100/kkfileview:4.1.1
 ```
 
-[镜像仓库](https://hub.docker.com/)
-
 ## 导航
+
+### 我的
 
 [docker镜像仓库](https://hub.docker.com/)
 
