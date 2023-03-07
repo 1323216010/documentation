@@ -6,13 +6,13 @@ Welcome to the Meilisearch documentation. Here you'll find everything you need t
 
 Looking for SDK documentation? Check out [this list of official Meilisearch libraries](/learn/what_is_meilisearch/sdks.md) or use the Integrations dropdown menu at the top of the screen for quick access.
 
-## Meilisearch news
+## 最新消息
 
 **Announcing Meilisearch Cloud:** [register now](https://cloud.meilisearch.com/register) or [log in here](https://cloud.meilisearch.com/login) if you already have an account.
 
 **We just raised a 15M Series A! 🥳** Check out the [TechCrunch exclusive](https://techcrunch.com/2022/10/10/meilisearch-lands-15m-investment-to-grow-its-search-as-a-service-business/), or learn more [on our blog](https://blog.meilisearch.com/meilisearch-series-a/).
 
-## Open-source
+## 开源
 
 Meilisearch and its documentation are both completely open source. You can **support the project by starring** [our main GitHub repository](https://github.com/meilisearch/meilisearch). In addition, all documentation pages are editable—just use the handy "Edit this page" button in the bottom left corner. Happy searching 🔎
 
