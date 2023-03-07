@@ -5,6 +5,18 @@ sidebar: auto
 
 # 常用
 
+## 导航
+
+### 我的
+
+[GitHub](https://github.com/1323216010)
+
+[Vercel](https://vercel.com/dashboard)
+
+### 仓库
+
+[docker镜像仓库](https://hub.docker.com/)
+
 ## 项目相关
 
 ### meilisearch
@@ -21,7 +33,7 @@ MEILI_MASTER_KEY指定token名称
 
 [项目地址](https://github.com/meilisearch/meilisearch)
 
-## 命令
+## 命令和配置
 
 ### docker
 
@@ -30,18 +42,6 @@ MEILI_MASTER_KEY指定token名称
 ```powershell
 docker tag yan/kkfileview:4.1.1 yan160100/kkfileview:4.1.1
 ```
-
-## 导航
-
-### 我的
-
-[GitHub](https://github.com/1323216010)
-
-[Vercel](https://vercel.com/dashboard)
-
-### 仓库
-
-[docker镜像仓库](https://hub.docker.com/)
 
 ## What are the recommended requirements for hosting a Meilisearch instance?
 
