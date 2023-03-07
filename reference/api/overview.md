@@ -63,26 +63,6 @@ All paginated responses contain the following fields:
 
 Since the `/tasks` endpoint uses a different type of pagination, the response contains different fields. You can read more about it in the [tasks API reference](/reference/api/tasks.md#get-tasks).
 
-## Parameters
-
-Parameters are options you can pass to an API endpoint to modify its response. There are three main types of parameters in Meilisearch's API: request body parameters, path parameters, and query parameters.
-
-### Request body parameters
-
-These parameters are mandatory parts of POST, PUT, and PATCH requests. They accept a wide variety of values and data types depending on the resource you're modifying. You must add these parameters to your request's data payload.
-
-### Path parameters
-
-These are parameters you pass to the API in the endpoint's path. They are used to identify a resource uniquely. You can have multiple path parameters, for example, `/indexes/{index_uid}/documents/{document_id}`.
-
-If an endpoint does not take any path parameters, this section is not present in that endpoint's documentation.
-
-### Query parameters
-
-These optional parameters are a sequence of key-value pairs and appear after the question mark (`?`) in the endpoint. You can list multiple query parameters by separating them with an ampersand (`&`). The order of query parameters does not matter. They are mostly used with GET endpoints.
-
-If an endpoint does not take any query parameters, this section is not present in that endpoint's documentation.
-
 ## Headers
 
 ### Content type
