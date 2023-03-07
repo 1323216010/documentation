@@ -102,7 +102,3 @@ Meilisearch compresses a response if the request contains the `Accept-Encoding` 
 ```
 curl -sH 'Accept-encoding: gzip' 'http://localhost:7700/indexes/movies/search' | gzip -
 ```
-
-## Request body
-
-The request body is data sent to the API. It is used with PUT, POST, and PATCH methods to create or update a resource. You must provide request bodies in JSON.
