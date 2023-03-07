@@ -13,7 +13,7 @@ module.exports = {
 
     nav: [
       { text: 'Learn', link: '/learn/getting_started/quick_start' },
-      { text: 'Reference', link: '/reference/api/overview' },
+      { text: '参考', link: '/reference/api/overview' },
       { text: '常用', link: '/faq' },
       {
         text: 'Integrations',
@@ -305,7 +305,7 @@ module.exports = {
       ],
       '/reference/': [
         {
-          title: '📒 参考',
+          title: '📒 API reference',
           path: '/reference/api/overview.html',
           collapsable: false,
           children: [
