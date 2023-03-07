@@ -13,11 +13,13 @@ sidebar: auto
 
 [Vercel](https://vercel.com/dashboard)
 
+[微信公众平台](https://mp.weixin.qq.com/)
+
 ### 仓库
 
-[npm](https://www.npmjs.com/)
+[npm依赖](https://www.npmjs.com/)
 
-[cdn](https://www.jsdelivr.com/)
+[cdn资源](https://www.jsdelivr.com/)
 
 [docker镜像](https://hub.docker.com/)
 
