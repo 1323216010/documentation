@@ -305,7 +305,7 @@ module.exports = {
       ],
       '/reference/': [
         {
-          title: '📒 API reference',
+          title: '📒 参考',
           path: '/reference/api/overview.html',
           collapsable: false,
           children: [
