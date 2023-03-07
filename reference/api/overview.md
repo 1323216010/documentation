@@ -32,61 +32,46 @@ Meilisearch is a RESTful API. This page describes the general behavior of the AP
 
 [3d模型](https://sketchfab.com/)
 
-## Document conventions
+## Headers
 
-This API documentation uses the following conventions:
+### Content type
 
-- Curly braces (`{}`) in API routes represent path parameters, for example, GET `/indexes/{index_uid}`
-- Required fields are marked by an asterisk (`*`)
-- Placeholder text is in uppercase characters with underscore delimiters, for example, `MASTER_KEY`
+Any API request with a payload (`--data-binary`) requires a `Content-Type` header. Content type headers indicate the media type of the resource, helping the client process the response body correctly.
 
-## Authorization
+Meilisearch currently supports the following formats:
 
-By [providing Meilisearch with a master key at launch](/learn/security/master_api_keys.md#protecting-a-meilisearch-instance), you protect your instance from unauthorized requests. The provided master key must be at least 16 bytes. From then on, you must include the `Authorization` header along with a valid API key to access protected routes (all routes except [`/health`](/reference/api/health.md).
+- `Content-Type: application/json` for JSON
+- `Content-Type: application/x-ndjson` for NDJSON
+- `Content-Type: text/csv` for CSV
 
-<CodeSamples id="authorization_header_1" />
+Only the [add documents](/reference/api/documents.md#add-or-replace-documents) and [update documents](/reference/api/documents.md#add-or-update-documents) endpoints accept NDJSON and CSV. For all others, use `Content-Type: application/json`.
 
-The [`/keys`](/reference/api/keys.md) route can only be accessed using the master key. For security reasons, we recommend using regular API keys for all other routes.
+### Content encoding
 
-::: note
- v0.24 and below use the `X-MEILI-API-KEY: apiKey` authorization header:
-<CodeSamples id="updating_guide_check_version_old_authorization_header" />
-:::
+The `Content-Encoding` header indicates the media type is compressed by a given algorithm. Compression improves transfer speed and reduces bandwidth consumption by sending and receiving smaller payloads. The `Accept-Encoding` header, instead, indicates the compression algorithm the client understands.
 
-[To learn more about keys and security, refer to our dedicated guide.](/learn/security/master_api_keys.md)
+Meilisearch supports the following compression methods:
 
-## Pagination
+- `br`: uses the [Brotli](https://en.wikipedia.org/wiki/Brotli) algorithm
+- `deflate`: uses the [zlib](https://en.wikipedia.org/wiki/Zlib) structure with the [deflate](https://en.wikipedia.org/wiki/DEFLATE) compression algorithm
+- `gzip`: uses the [GZip](https://en.wikipedia.org/wiki/Gzip) algorithm
 
-Meilisearch paginates all GET routes that return multiple resources, for example, GET `/indexes`, GET `/documents`, GET `/keys`, etc. This allows you to work with manageable chunks of data. All these routes return 20 results per page, but you can configure it using the `limit` query parameter. You can move between pages using `offset`.
+#### Request compression
 
-All paginated responses contain the following fields:
+The code sample below uses the `Content-Encoding: gzip` header, indicating that the request body is compressed using the `gzip` algorithm:
 
-| Name         | Type    | Description                  |
-| :----------- | :------ | :--------------------------- |
-| **`offset`** | Integer | Number of resources skipped  |
-| **`limit`**  | Integer | Number of resources returned |
-| **`total`**  | Integer | Total number of resources    |
+```
+ cat ~/movies.json | gzip | curl -X POST 'http://localhost:7700/indexes/movies/documents' --data-binary @- -H 'Content-Type: application/json' -H 'Content-Encoding: gzip'
+```
 
-### `/tasks` endpoint
+#### Response compression
 
-Since the `/tasks` endpoint uses a different type of pagination, the response contains different fields. You can read more about it in the [tasks API reference](/reference/api/tasks.md#get-tasks).
+Meilisearch compresses a response if the request contains the `Accept-Encoding` header. The code sample below uses the `gzip` algorithm:
 
-## Parameters
+```
+curl -sH 'Accept-encoding: gzip' 'http://localhost:7700/indexes/movies/search' | gzip -
+```
 
-Parameters are options you can pass to an API endpoint to modify its response. There are three main types of parameters in Meilisearch's API: request body parameters, path parameters, and query parameters.
+## Request body
 
-### Request body parameters
-
-These parameters are mandatory parts of POST, PUT, and PATCH requests. They accept a wide variety of values and data types depending on the resource you're modifying. You must add these parameters to your request's data payload.
-
-### Path parameters
-
-These are parameters you pass to the API in the endpoint's path. They are used to identify a resource uniquely. You can have multiple path parameters, for example, `/indexes/{index_uid}/documents/{document_id}`.
-
-If an endpoint does not take any path parameters, this section is not present in that endpoint's documentation.
-
-### Query parameters
-
-These optional parameters are a sequence of key-value pairs and appear after the question mark (`?`) in the endpoint. You can list multiple query parameters by separating them with an ampersand (`&`). The order of query parameters does not matter. They are mostly used with GET endpoints.
-
-If an endpoint does not take any query parameters, this section is not present in that endpoint's documentation.
+The request body is data sent to the API. It is used with PUT, POST, and PATCH methods to create or update a resource. You must provide request bodies in JSON.
