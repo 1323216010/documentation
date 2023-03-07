@@ -135,24 +135,6 @@ curl -sH 'Accept-encoding: gzip' 'http://localhost:7700/indexes/movies/search' |
 
 The request body is data sent to the API. It is used with PUT, POST, and PATCH methods to create or update a resource. You must provide request bodies in JSON.
 
-## Response body
-
-Meilisearch is an **asynchronous API**. This means that in response to most write requests, you will receive a summarized version of the `task` object:
-
-```json
-{
-    "taskUid": 1,
-    "indexUid": "movies",
-    "status": "enqueued",
-    "type": "indexUpdate",
-    "enqueuedAt": "2021-08-11T09:25:53.000000Z"
-}
-```
-
-You can use this `taskUid` to get more details on [the status of the task](/reference/api/tasks.md#get-one-task).
-
-See more information about [asynchronous operations](/learn/advanced/asynchronous_operations.md).
-
 ## Data types
 
 The Meilisearch API supports [JSON data types](https://www.w3schools.com/js/js_json_datatypes.asp).
