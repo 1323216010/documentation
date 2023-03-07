@@ -19,17 +19,6 @@ docker run -it --rm -p 7700:7700 -e MEILI_MASTER_KEY='MASTER_KEY' getmeili/meili
 
 MEILI_MASTER_KEY指定token名称
 
-## Is killing a Meilisearch process safe?
-
-Killing Meilisearch is **safe**, even in the middle of a process (ex: adding a batch of documents). When you restart the server, it will start the task from the beginning.
-More information in the [asynchronous operations guide](/learn/advanced/asynchronous_operations.md).
-
-## Do you provide a public roadmap for Meilisearch and its integration tools?
-
-Yes, as Meilisearch and its integration tools are open source, we maintain a [public roadmap](https://roadmap.meilisearch.com/) for the general features we plan to do.
-
-For more accurate features and issues, everything is detailed in the issues of all our [GitHub repositories](https://github.com/meilisearch/meilisearch/issues).
-
 ## What are the recommended requirements for hosting a Meilisearch instance?
 
 **The short answer:**
@@ -91,8 +80,6 @@ In general, we recommend the former. However, if you need to reduce the size of 
 - [Stop words](/reference/api/settings.md#stop-words) are essential to reducing database size
 - Not all attributes need to be [searchable](/learn/configuration/displayed_searchable_attributes.md#searchable-fields). Avoid indexing unique IDs.
 
-## Why does Meilisearch send data to Segment? Does Meilisearch track its users?
+## 联系
 
-**Meilisearch will never track or identify individual users**. That being said, we do use Segment to collect anonymous data about user trends, feature usage, and bugs.
-
-You can read more about what metrics we collect, why we collect them, and how to disable it on our [telemetry page](/learn/what_is_meilisearch/telemetry.md). Issues of transparency and privacy are very important to us, so if you feel we are lacking in this area please [open an issue](https://github.com/meilisearch/documentation/issues/new/choose) or send an email to our dedicated email address: [privacy@meilisearch.com](mailto:privacy@meilisearch.com).
+email 地址: [ypc0100@qq.com](mailto:ypc0100@qq.com).
