@@ -1,8 +1,4 @@
-# API reference
-
-Welcome to the Meilisearch API documentation. If you are new to Meilisearch, check out our [quick start guide!](/learn/getting_started/quick_start.md)
-
-Meilisearch is a RESTful API. This page describes the general behavior of the API.
+# 网址导航
 
 ## 我的
 
