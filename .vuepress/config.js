@@ -14,7 +14,7 @@ module.exports = {
     nav: [
       { text: 'Learn', link: '/learn/getting_started/quick_start' },
       { text: 'Reference', link: '/reference/api/overview' },
-      { text: 'FAQ', link: '/faq' },
+      { text: '常用', link: '/faq' },
       {
         text: 'Integrations',
         items: [
