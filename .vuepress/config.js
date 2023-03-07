@@ -1,10 +1,10 @@
 const ogprefix = 'og: http://ogp.me/ns#'
 module.exports = {
-  title: 'Meilisearch Documentation v1.0',
+  title: '我的幻想乡 v1.0',
   description: 'Open source Instant Search Engine',
   theme: 'default-prefers-color-scheme',
   themeConfig: {
-    docsRepo: 'meilisearch/documentation',
+    docsRepo: '我的幻想乡',
     docsBranch: 'main',
     editLinks: true,
     logo: '/logo.svg',
