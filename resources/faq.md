@@ -3,7 +3,7 @@ permalink: /faq.html
 sidebar: auto
 ---
 
-# FAQ
+# 常用
 
 配置、命令
 
