@@ -15,6 +15,14 @@ sidebar: auto
 
 [微信公众平台](https://mp.weixin.qq.com/)
 
+### 工具
+
+#### 在线ide
+
+[vscode](https://vscode.dev/)
+
+[stackblitz](https://stackblitz.com/)
+
 ### 仓库
 
 [npm依赖](https://www.npmjs.com/)
