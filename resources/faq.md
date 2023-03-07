@@ -15,7 +15,7 @@ sidebar: auto
 
 ### 仓库
 
-[docker镜像仓库](https://hub.docker.com/)
+[docker镜像](https://hub.docker.com/)
 
 ## 项目相关
 
