@@ -31,3 +31,15 @@ Meilisearch is a RESTful API. This page describes the general behavior of the AP
 ## 资源
 
 [3d模型](https://sketchfab.com/)
+
+## Document conventions
+
+This API documentation uses the following conventions:
+
+- Curly braces (`{}`) in API routes represent path parameters, for example, GET `/indexes/{index_uid}`
+- Required fields are marked by an asterisk (`*`)
+- Placeholder text is in uppercase characters with underscore delimiters, for example, `MASTER_KEY`
+
+## Data types
+
+The Meilisearch API supports [JSON data types](https://www.w3schools.com/js/js_json_datatypes.asp).
