@@ -11,13 +11,15 @@ sidebar: auto
 
 meilisearch是一个用rust写的搜索引擎
 
-[项目地址](https://github.com/meilisearch/meilisearch)
+docker启动命令
 
 ```powershell
 docker run -it --rm -p 7700:7700 -e MEILI_MASTER_KEY='MASTER_KEY' getmeili/meilisearch:v1.0
 ```
 
 MEILI_MASTER_KEY指定token名称
+
+[项目地址](https://github.com/meilisearch/meilisearch)
 
 ## What are the recommended requirements for hosting a Meilisearch instance?
 
