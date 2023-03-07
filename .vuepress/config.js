@@ -16,54 +16,13 @@ module.exports = {
       { text: '参考', link: '/reference/api/overview' },
       { text: '常用', link: '/faq' },
       {
-        text: 'Integrations',
+        text: '项目预览',
         items: [
           {
-            text: 'SDKs',
+            text: '代码生成器',
             items: [
-              { text: '.NET', link: 'https://github.com/meilisearch/meilisearch-dotnet' },
-              { text: 'Dart', link: 'https://github.com/meilisearch/meilisearch-dart' },
-              { text: 'Golang', link: 'https://github.com/meilisearch/meilisearch-go' },
-              { text: 'Java', link: 'https://github.com/meilisearch/meilisearch-java' },
-              { text: 'JavaScript', link: 'https://github.com/meilisearch/meilisearch-js' },
-              { text: 'PHP', link: 'https://github.com/meilisearch/meilisearch-php' },
-              { text: 'Python', link: 'https://github.com/meilisearch/meilisearch-python' },
-              { text: 'Ruby', link: 'https://github.com/meilisearch/meilisearch-ruby' },
-              { text: 'Rust', link: 'https://github.com/meilisearch/meilisearch-rust' },
-              { text: 'Swift', link: 'https://github.com/meilisearch/meilisearch-swift' },
-            ],
-          },
-          {
-            text: 'Frameworks',
-            items: [
-              { text: 'Rails', link: 'https://github.com/meilisearch/meilisearch-rails' },
-              { text: 'Laravel', link: 'https://github.com/laravel/scout' },
-              { text: 'Symfony', link: 'https://github.com/meilisearch/meilisearch-symfony' },
-            ],
-          },
-          {
-            text: 'Front-end tools',
-            items: [
-              { text: 'instant-meilisearch', link: 'https://github.com/meilisearch/instant-meilisearch' },
-              { text: 'docs-searchbar.js', link: 'https://github.com/meilisearch/docs-searchbar.js' },
-            ],
-          },
-          {
-            text: 'Plugins',
-            items: [
-              { text: 'Gatsby', link: 'https://github.com/meilisearch/gatsby-plugin-meilisearch/' },
-              { text: 'Vuepress', link: 'https://github.com/meilisearch/vuepress-plugin-meilisearch' },
-              { text: 'Strapi', link: 'https://github.com/meilisearch/strapi-plugin-meilisearch/' },
-              { text: 'Firebase', link: 'https://github.com/meilisearch/firestore-meilisearch' },
-            ],
-          },
-          {
-            text: 'DevOps tools',
-            items: [
-              { text: 'Kubernetes', link: 'https://github.com/meilisearch/meilisearch-kubernetes' },
-              { text: 'DigitalOcean', link: 'https://github.com/meilisearch/meilisearch-digitalocean' },
-              { text: 'GCP', link: 'https://github.com/meilisearch/meilisearch-gcp' },
-              { text: 'AWS', link: 'https://github.com/meilisearch/meilisearch-aws' },
+              { text: 'Java', link: 'https://review.yan-ui.asia/tool/gen' },
+              { text: 'Golang', link: 'https://review.yan-ui.asia/autoCode' },
             ],
           },
         ],
