@@ -82,6 +82,12 @@ In general, we recommend the former. However, if you need to reduce the size of 
 - [Stop words](/reference/api/settings.md#stop-words) are essential to reducing database size
 - Not all attributes need to be [searchable](/learn/configuration/displayed_searchable_attributes.md#searchable-fields). Avoid indexing unique IDs.
 
-## 联系
+## docker常用
 
-email 地址: [ypc0100@qq.com](mailto:ypc0100@qq.com)
+##### docker重命名
+
+```powershell
+docker tag yan/kkfileview:4.1.1 yan160100/kkfileview:4.1.1
+```
+
+
