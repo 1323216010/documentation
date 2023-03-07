@@ -12,9 +12,9 @@ Looking for SDK documentation? Check out [this list of official Meilisearch libr
 
 **We just raised a 15M Series A! 🥳** Check out the [TechCrunch exclusive](https://techcrunch.com/2022/10/10/meilisearch-lands-15m-investment-to-grow-its-search-as-a-service-business/), or learn more [on our blog](https://blog.meilisearch.com/meilisearch-series-a/).
 
-## 开源
+## 最近项目
 
 Meilisearch and its documentation are both completely open source. You can **support the project by starring** [our main GitHub repository](https://github.com/meilisearch/meilisearch). In addition, all documentation pages are editable—just use the handy "Edit this page" button in the bottom left corner. Happy searching 🔎
 
-<a class="github-button" href="https://github.com/meilisearch/meilisearch" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star meilisearch/meilisearch on GitHub">Star</a><!-- prettier-ignore
+<a class="github-button" href="https://github.com/1323216010/api" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star meilisearch/meilisearch on GitHub">Star</a><!-- prettier-ignore
 --><script async defer src="https://buttons.github.io/buttons.js"></script>
