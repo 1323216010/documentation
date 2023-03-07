@@ -82,4 +82,4 @@ In general, we recommend the former. However, if you need to reduce the size of 
 
 ## 联系
 
-email 地址: [ypc0100@qq.com](mailto:ypc0100@qq.com).
+email 地址: [ypc0100@qq.com](mailto:ypc0100@qq.com)
