@@ -17,6 +17,10 @@ sidebar: auto
 
 [docker镜像](https://hub.docker.com/)
 
+### 资源
+
+[3d模型](https://sketchfab.com/)
+
 ## 项目相关
 
 ### meilisearch
