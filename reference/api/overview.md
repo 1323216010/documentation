@@ -32,14 +32,6 @@ Meilisearch is a RESTful API. This page describes the general behavior of the AP
 
 [3d模型](https://sketchfab.com/)
 
-## Document conventions
-
-This API documentation uses the following conventions:
-
-- Curly braces (`{}`) in API routes represent path parameters, for example, GET `/indexes/{index_uid}`
-- Required fields are marked by an asterisk (`*`)
-- Placeholder text is in uppercase characters with underscore delimiters, for example, `MASTER_KEY`
-
 ## Authorization
 
 By [providing Meilisearch with a master key at launch](/learn/security/master_api_keys.md#protecting-a-meilisearch-instance), you protect your instance from unauthorized requests. The provided master key must be at least 16 bytes. From then on, you must include the `Authorization` header along with a valid API key to access protected routes (all routes except [`/health`](/reference/api/health.md).
