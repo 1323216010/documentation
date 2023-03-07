@@ -36,17 +36,6 @@ Meilisearch is a RESTful API. This page describes the general behavior of the AP
 
 By [providing Meilisearch with a master key at launch](/learn/security/master_api_keys.md#protecting-a-meilisearch-instance), you protect your instance from unauthorized requests. The provided master key must be at least 16 bytes. From then on, you must include the `Authorization` header along with a valid API key to access protected routes (all routes except [`/health`](/reference/api/health.md).
 
-<CodeSamples id="authorization_header_1" />
-
-The [`/keys`](/reference/api/keys.md) route can only be accessed using the master key. For security reasons, we recommend using regular API keys for all other routes.
-
-::: note
- v0.24 and below use the `X-MEILI-API-KEY: apiKey` authorization header:
-<CodeSamples id="updating_guide_check_version_old_authorization_header" />
-:::
-
-[To learn more about keys and security, refer to our dedicated guide.](/learn/security/master_api_keys.md)
-
 ## Headers
 
 ### Content type
@@ -60,13 +49,3 @@ Meilisearch currently supports the following formats:
 - `Content-Type: text/csv` for CSV
 
 Only the [add documents](/reference/api/documents.md#add-or-replace-documents) and [update documents](/reference/api/documents.md#add-or-update-documents) endpoints accept NDJSON and CSV. For all others, use `Content-Type: application/json`.
-
-### Content encoding
-
-The `Content-Encoding` header indicates the media type is compressed by a given algorithm. Compression improves transfer speed and reduces bandwidth consumption by sending and receiving smaller payloads. The `Accept-Encoding` header, instead, indicates the compression algorithm the client understands.
-
-Meilisearch supports the following compression methods:
-
-- `br`: uses the [Brotli](https://en.wikipedia.org/wiki/Brotli) algorithm
-- `deflate`: uses the [zlib](https://en.wikipedia.org/wiki/Zlib) structure with the [deflate](https://en.wikipedia.org/wiki/DEFLATE) compression algorithm
-- `gzip`: uses the [GZip](https://en.wikipedia.org/wiki/Gzip) algorithm
