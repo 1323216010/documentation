@@ -37,7 +37,7 @@ When [adding or replacing documents](/reference/api/documents.md#add-or-replace-
 
 meilisearch是一个用rust写的搜索引擎
 
-项目地址
+[项目地址](https://github.com/meilisearch/meilisearch)
 
 ```powershell
 docker run -it --rm -p 7700:7700 -e MEILI_MASTER_KEY='MASTER_KEY' getmeili/meilisearch:v1.0
