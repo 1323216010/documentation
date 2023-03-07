@@ -14,7 +14,7 @@ module.exports = {
     nav: [
       { text: 'Learn', link: '/learn/getting_started/quick_start' },
       { text: 'Reference', link: '/reference/api/overview' },
-      { text: '常用命令', link: '/faq' },
+      { text: 'FAQ', link: '/faq' },
       {
         text: 'Integrations',
         items: [
@@ -72,9 +72,9 @@ module.exports = {
         text: '更多',
         items: [
           { text: 'GitHub', link: 'https://github.com/1323216010' },
-/*           { text: 'Discord', link: 'https://discord.gg/meilisearch' },
+          { text: 'Discord', link: 'https://discord.gg/meilisearch' },
           { text: 'Blog', link: 'https://blog.meilisearch.com/' },
-          { text: 'meilisearch.com', link: 'https://meilisearch.com' }, */
+          { text: 'meilisearch.com', link: 'https://meilisearch.com' },
         ],
       },
     ],
