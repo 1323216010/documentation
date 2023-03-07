@@ -310,7 +310,7 @@ module.exports = {
           collapsable: false,
           children: [
             {
-              title: 'Overview',
+              title: '网址导航',
               path: '/reference/api/overview',
             },
             '/reference/api/indexes',
