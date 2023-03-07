@@ -33,37 +33,18 @@ The `400 - Bad request` response often means that your data is not in an expecte
 
 When [adding or replacing documents](/reference/api/documents.md#add-or-replace-documents), you must enclose them in an array even if there is only one new document.
 
-## I have uploaded my documents, but I get no result when I search in my index
+## meilisearch
 
-Your document upload probably failed. To understand why, please check the status of the document addition task using the returned [`taskUid`](/reference/api/tasks.md#get-one-task). If the task failed, the response should contain an `error` object.
+meilisearch是一个用rust写的搜索引擎
+ [`更多`](https://github.com/meilisearch/meilisearch). 
 
-Here is an example of a failed task:
+docker启动meilisearch
 
-```json
-{
-    "uid": 1,
-    "indexUid": "movies",
-    "status": "failed",
-    "type": "documentAdditionOrUpdate",
-    "canceledBy": null,
-    "details": { 
-            "receivedDocuments": 67493,
-            "indexedDocuments": 0
-    },
-    "error": {
-        "message": "Document does not have a `:primaryKey` attribute: `:documentRepresentation`.",
-        "code": "internal",
-        "type": "missing_document_id",
-        "link": "https://docs.meilisearch.com/errors#missing-document-id",
-    },
-    "duration": "PT1S",
-    "enqueuedAt": "2021-08-10T14:29:17.000000Z",
-    "startedAt": "2021-08-10T14:29:18.000000Z",
-    "finishedAt": "2021-08-10T14:29:19.000000Z"
-}
+```powershell
+docker run -it --rm -p 7700:7700 -e MEILI_MASTER_KEY='MASTER_KEY' getmeili/meilisearch:v1.0
 ```
 
-Check your error message for more information.
+MEILI_MASTER_KEY指定token名称
 
 ## Is killing a Meilisearch process safe?
 
