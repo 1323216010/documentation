@@ -4,12 +4,33 @@ Welcome to the Meilisearch API documentation. If you are new to Meilisearch, che
 
 Meilisearch is a RESTful API. This page describes the general behavior of the API.
 
-### OpenAPI
+## 我的
 
-You can download the Meilisearch OpenAPI specifications at:
+[GitHub](https://github.com/1323216010)
 
-- [YAML](https://bump.sh/doc/meilisearch.yaml)
-- [JSON](https://bump.sh/doc/meilisearch.json)
+[Vercel](https://vercel.com/dashboard)
+
+[微信公众平台](https://mp.weixin.qq.com/)
+
+## 工具
+
+### 在线ide
+
+[vscode](https://vscode.dev/)
+
+[stackblitz](https://stackblitz.com/)
+
+## 仓库
+
+[npm依赖](https://www.npmjs.com/)
+
+[cdn资源](https://www.jsdelivr.com/)
+
+[docker镜像](https://hub.docker.com/)
+
+## 资源
+
+[3d模型](https://sketchfab.com/)
 
 ## Document conventions
 
