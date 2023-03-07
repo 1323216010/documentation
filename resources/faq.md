@@ -39,8 +39,28 @@ Your document upload probably failed. To understand why, please check the status
 
 Here is an example of a failed task:
 
-```powershell
-docker run -it --rm -p 7700:7700 -e MEILI_MASTER_KEY='MASTER_KEY' getmeili/meilisearch:v1.0
+```json
+{
+    "uid": 1,
+    "indexUid": "movies",
+    "status": "failed",
+    "type": "documentAdditionOrUpdate",
+    "canceledBy": null,
+    "details": { 
+            "receivedDocuments": 67493,
+            "indexedDocuments": 0
+    },
+    "error": {
+        "message": "Document does not have a `:primaryKey` attribute: `:documentRepresentation`.",
+        "code": "internal",
+        "type": "missing_document_id",
+        "link": "https://docs.meilisearch.com/errors#missing-document-id",
+    },
+    "duration": "PT1S",
+    "enqueuedAt": "2021-08-10T14:29:17.000000Z",
+    "startedAt": "2021-08-10T14:29:18.000000Z",
+    "finishedAt": "2021-08-10T14:29:19.000000Z"
+}
 ```
 
 Check your error message for more information.
