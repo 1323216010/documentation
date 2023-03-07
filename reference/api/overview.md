@@ -39,13 +39,3 @@ By [providing Meilisearch with a master key at launch](/learn/security/master_ap
 ## Headers
 
 ### Content type
-
-Any API request with a payload (`--data-binary`) requires a `Content-Type` header. Content type headers indicate the media type of the resource, helping the client process the response body correctly.
-
-Meilisearch currently supports the following formats:
-
-- `Content-Type: application/json` for JSON
-- `Content-Type: application/x-ndjson` for NDJSON
-- `Content-Type: text/csv` for CSV
-
-Only the [add documents](/reference/api/documents.md#add-or-replace-documents) and [update documents](/reference/api/documents.md#add-or-update-documents) endpoints accept NDJSON and CSV. For all others, use `Content-Type: application/json`.
