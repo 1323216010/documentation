@@ -15,6 +15,10 @@ sidebar: auto
 
 ### 仓库
 
+[npm](https://www.npmjs.com/)
+
+[cdn](https://www.jsdelivr.com/)
+
 [docker镜像](https://hub.docker.com/)
 
 ### 资源
