@@ -36,7 +36,7 @@ When [adding or replacing documents](/reference/api/documents.md#add-or-replace-
 ## I have uploaded my documents, but I get no result when I search in my index
 
 Your document upload probably failed. To understand why, please check the status of the document addition task using the returned [`taskUid`](/reference/api/tasks.md#get-one-task). If the task failed, the response should contain an `error` object.
-
+中文
 Here is an example of a failed task:
 
 ```json
