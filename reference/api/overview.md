@@ -47,22 +47,6 @@ The [`/keys`](/reference/api/keys.md) route can only be accessed using the maste
 
 [To learn more about keys and security, refer to our dedicated guide.](/learn/security/master_api_keys.md)
 
-## Pagination
-
-Meilisearch paginates all GET routes that return multiple resources, for example, GET `/indexes`, GET `/documents`, GET `/keys`, etc. This allows you to work with manageable chunks of data. All these routes return 20 results per page, but you can configure it using the `limit` query parameter. You can move between pages using `offset`.
-
-All paginated responses contain the following fields:
-
-| Name         | Type    | Description                  |
-| :----------- | :------ | :--------------------------- |
-| **`offset`** | Integer | Number of resources skipped  |
-| **`limit`**  | Integer | Number of resources returned |
-| **`total`**  | Integer | Total number of resources    |
-
-### `/tasks` endpoint
-
-Since the `/tasks` endpoint uses a different type of pagination, the response contains different fields. You can read more about it in the [tasks API reference](/reference/api/tasks.md#get-tasks).
-
 ## Headers
 
 ### Content type
