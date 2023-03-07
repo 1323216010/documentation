@@ -82,6 +82,3 @@ In general, we recommend the former. However, if you need to reduce the size of 
 - [Stop words](/reference/api/settings.md#stop-words) are essential to reducing database size
 - Not all attributes need to be [searchable](/learn/configuration/displayed_searchable_attributes.md#searchable-fields). Avoid indexing unique IDs.
 
-## 联系
-
-email 地址: [ypc0100@qq.com](mailto:ypc0100@qq.com)
