@@ -32,8 +32,8 @@ Meilisearch is a RESTful API. This page describes the general behavior of the AP
 
 [3d模型](https://sketchfab.com/)
 
-## A
+## Authorization
 
-## H
+## Headers
 
 ### Content type
