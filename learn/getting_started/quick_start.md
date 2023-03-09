@@ -49,8 +49,6 @@ For this quick start, we will be using a collection of movies as our dataset. To
 
 Open a new terminal window and run the following command:
 
-<CodeSamples id="getting_started_add_documents_md" />
-
 Meilisearch stores data in the form of discrete records, called [documents](/learn/core_concepts/documents.md). Documents are grouped into collections, called [indexes](/learn/core_concepts/indexes.md).
 
 ::: note

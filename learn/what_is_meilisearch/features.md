@@ -8,9 +8,9 @@ sidebarDepth: 2
 
 Meilisearch is a flexible and powerful user-focused search engine. Here are some of its major features.
 
-## Search as you type
+## 逗号分割子串
 
-Also called "instant search". Results are delivered while you're still inputting your query. Displayed results are changed in real-time whenever you type additional text into the search box.
+<CodeSamples id="getting_started_add_documents_md" />
 
 ## Ultra relevant
 
