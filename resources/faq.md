@@ -43,7 +43,7 @@ npm cache clear --force
 
 给id生成uuid
 
-```powershell
+```sql
 UPDATE t_demo set id = REPLACE(UUID(),"-","") 
 ```
 
