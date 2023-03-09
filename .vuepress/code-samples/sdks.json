@@ -9,7 +9,7 @@
     "language": "javascript",
     "cacheableTab": true,
     "label": "JS",
-    "url": "https://raw.githubusercontent.com/meilisearch/meilisearch-js/main/.code-samples.meilisearch.yaml"
+    "url": "https://cdn.jsdelivr.net/gh/1323216010/cdn/meilisearch/js.yaml"
   },
   {
     "language": "python",
