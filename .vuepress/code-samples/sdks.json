@@ -15,7 +15,7 @@
     "language": "python",
     "cacheableTab": true,
     "label": "Python",
-    "url": "https://raw.githubusercontent.com/meilisearch/meilisearch-python/main/.code-samples.meilisearch.yaml"
+    "url": "https://cdn.jsdelivr.net/gh/1323216010/cdn/meilisearch/python.yaml"
   },
   {
     "language": "php",
