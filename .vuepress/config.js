@@ -12,7 +12,7 @@ module.exports = {
     smoothScroll: true,
 
     nav: [
-      { text: 'Learn', link: '/learn/getting_started/quick_start' },
+      { text: '学习', link: '/learn/getting_started/quick_start' },
       { text: '导航', link: '/reference/api/overview' },
       { text: '常用', link: '/faq' },
       {

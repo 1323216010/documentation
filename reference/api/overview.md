@@ -18,6 +18,10 @@
 
 [stackblitz](https://stackblitz.com/)
 
+### json转sql
+
+[tableconvert](https://tableconvert.com/zh-cn/json-to-sql)
+
 ## 仓库
 
 [npm依赖](https://www.npmjs.com/)
