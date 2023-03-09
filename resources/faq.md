@@ -31,6 +31,14 @@ MEILI_MASTER_KEY指定token名称
 docker tag yan/kkfileview:4.1.1 yan160100/kkfileview:4.1.1
 ```
 
+### npm
+
+清理缓存
+
+```powershell
+npm cache clear --force
+```
+
 ## What are the recommended requirements for hosting a Meilisearch instance?
 
 **The short answer:**
