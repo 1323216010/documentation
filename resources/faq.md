@@ -21,7 +21,7 @@ MEILI_MASTER_KEY指定token名称
 
 [项目地址](https://github.com/meilisearch/meilisearch)
 
-## 命令和配置
+## 命令、语句和配置
 
 ### docker
 
@@ -37,6 +37,14 @@ docker tag yan/kkfileview:4.1.1 yan160100/kkfileview:4.1.1
 
 ```powershell
 npm cache clear --force
+```
+
+### sql
+
+给id生成uuid
+
+```powershell
+UPDATE t_demo set id = REPLACE(UUID(),"-","") 
 ```
 
 ## What are the recommended requirements for hosting a Meilisearch instance?
