@@ -39,6 +39,14 @@ docker tag yan/kkfileview:4.1.1 yan160100/kkfileview:4.1.1
 npm cache clear --force
 ```
 
+### linux
+
+查看cpu信息
+
+```powershell
+cat  /proc/cpuinfo
+```
+
 ### sql
 
 给id生成uuid
