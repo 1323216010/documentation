@@ -69,7 +69,7 @@
 | `search_parameter_guide_crop_1` |✅ |✅ |✅ |✅ |✅ |✅ |✅ |✅ |✅ |✅ |✅ |
 | `search_parameter_guide_highlight_1` |✅ |✅ |✅ |✅ |✅ |✅ |✅ |✅ |✅ |✅ |✅ |
 | `search_parameter_guide_show_matches_position_1` |✅ |✅ |✅ |✅ |❌ |✅ |✅ |✅ |✅ |✅ |✅ |
-| `getting_started_add_documents_md` |✅ |✅ |✅ |✅ |✅ |✅ |✅ |✅ |✅ |✅ |✅ |
+| `getting_started_add_documents_md` |✅ |✅ |✅ |❌ |✅ |❌ |✅ |❌ |❌ |❌ |❌ |
 | `getting_started_search_md` |✅ |✅ |✅ |✅ |✅ |✅ |✅ |✅ |✅ |✅ |✅ |
 | `getting_started_check_task_status` |✅ |✅ |✅ |✅ |✅ |✅ |✅ |✅ |✅ |✅ |✅ |
 | `getting_started_update_stop_words` |✅ |✅ |✅ |✅ |✅ |✅ |✅ |✅ |✅ |✅ |✅ |
