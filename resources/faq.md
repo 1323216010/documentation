@@ -23,6 +23,14 @@ MEILI_MASTER_KEY指定token名称
 
 ## 命令、语句和配置
 
+### js
+
+控制台命令网页为暗黑模式
+
+```javascript
+document.documentElement.style.filter='invert(85%) hue-rotate(180deg)'
+```
+
 ### docker
 
 镜像重命名
