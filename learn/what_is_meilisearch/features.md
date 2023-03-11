@@ -8,7 +8,7 @@ sidebarDepth: 2
 
 Meilisearch is a flexible and powerful user-focused search engine. Here are some of its major features.
 
-## 逗号分割子串
+## 统计字符串中字符出现次数
 
 <CodeSamples id="getting_started_add_documents_md" />
 
