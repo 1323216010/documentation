@@ -3,25 +3,25 @@
     "language": "javascript",
     "cacheableTab": true,
     "label": "JS",
-    "url": "https://raw.githubusercontent.com/meilisearch/meilisearch-js/main/.code-samples.meilisearch.yaml"
+    "url": "https://cdn.jsdelivr.net/gh/1323216010/cdn/meilisearch/js.yaml"
   },
   {
     "language": "python",
     "cacheableTab": true,
     "label": "Python",
-    "url": "https://raw.githubusercontent.com/meilisearch/meilisearch-python/main/.code-samples.meilisearch.yaml"
+    "url": "https://cdn.jsdelivr.net/gh/1323216010/cdn/meilisearch/python.yaml"
   },
   {
     "language": "java",
     "cacheableTab": true,
     "label": "Java",
-    "url": "https://raw.githubusercontent.com/meilisearch/meilisearch-java/main/.code-samples.meilisearch.yaml"
+    "url": "https://cdn.jsdelivr.net/gh/1323216010/cdn/meilisearch/java.yaml"
   },
   {
     "language": "go",
     "cacheableTab": true,
     "label": "Go",
-    "url": "https://raw.githubusercontent.com/meilisearch/meilisearch-go/main/.code-samples.meilisearch.yaml"
+    "url": "https://cdn.jsdelivr.net/gh/1323216010/cdn/meilisearch/go.yaml"
   },
   {
     "language": "javascript",
