@@ -1,4 +1,4 @@
-# Indexes
+# 例子
 
 The `/indexes` route allows you to create, manage, and delete your indexes.
 
