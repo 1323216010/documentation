@@ -48,16 +48,16 @@ module.exports = {
               path: '/learn/what_is_meilisearch/overview',
             },
             '/learn/what_is_meilisearch/features',
-/*             '/learn/what_is_meilisearch/philosophy',
+            '/learn/what_is_meilisearch/philosophy',
             '/learn/what_is_meilisearch/sdks',
             '/learn/what_is_meilisearch/comparison_to_alternatives',
             '/learn/what_is_meilisearch/telemetry',
             '/learn/what_is_meilisearch/search_preview',
             '/learn/what_is_meilisearch/language',
-            '/learn/what_is_meilisearch/contact', */
+            '/learn/what_is_meilisearch/contact',
           ],
         },
-/*         {
+        {
           title: '🚀 Getting started',
           path: '/learn/getting_started/quick_start.html',
           collapsable: false,
@@ -260,7 +260,7 @@ module.exports = {
               path: '/learn/contributing/contributing_to_docs',
             },
           ],
-        }, */
+        },
       ],
       '/reference/': [
         {
