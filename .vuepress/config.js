@@ -44,10 +44,9 @@ module.exports = {
           sidebarDepth: 0,
           children: [
             {
-              title: 'Overview',
-              path: '/learn/what_is_meilisearch/overview',
+              title: '程序',
+              path: '/learn/what_is_meilisearch/features',
             },
-            '/learn/what_is_meilisearch/features',
           ],
         },
       ],

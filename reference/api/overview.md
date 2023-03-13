@@ -45,9 +45,3 @@
 ## 资源
 
 [3d模型](https://sketchfab.com/)
-
-## Authorization
-
-## Headers
-
-### Content type
