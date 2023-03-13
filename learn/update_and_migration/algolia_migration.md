@@ -2,8 +2,6 @@
 
 This page aims to help current users of Algolia make the transition to Meilisearch.
 
-For a high-level comparison of the two search companies and their products, see [our analysis of the search market](/learn/what_is_meilisearch/comparison_to_alternatives.md#meilisearch-vs-algolia).
-
 ## Overview
 
 This guide will take you step-by-step through the creation of a [Node.js](https://nodejs.org/en/) script to upload Algolia index data to Meilisearch. [You can also skip directly to the finished script](#finished-script).
