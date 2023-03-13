@@ -50,26 +50,6 @@ module.exports = {
             '/learn/what_is_meilisearch/features',
           ],
         },
-        {
-          title: '🚀 Getting started',
-          path: '/learn/getting_started/quick_start.html',
-          collapsable: false,
-          children: [
-            '/learn/getting_started/installation',
-            '/learn/getting_started/supported_os',
-            '/learn/getting_started/quick_start',
-            {
-              title: 'Meilisearch 101',
-              path: '/learn/getting_started/filtering_and_sorting.html',
-              collapsable: false,
-              children: [
-                '/learn/getting_started/filtering_and_sorting',
-                '/learn/getting_started/customizing_relevancy',
-                '/learn/getting_started/getting_ready_for_production',
-              ],
-            },
-          ],
-        },
       ],
       '/reference/': [
         {
