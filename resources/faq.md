@@ -21,6 +21,18 @@ MEILI_MASTER_KEY指定token名称
 
 [项目地址](https://github.com/meilisearch/meilisearch)
 
+### ws
+
+ws 是一个简单易用、速度极快且经过全面测试的 WebSocket 客户端和服务器实现。
+
+[项目地址](https://github.com/websockets/ws)
+
+### websocket
+
+Gorilla WebSocket 是WebSocket协议的 Go实现。
+
+[项目地址](https://github.com/gorilla/websocket)
+
 ## 命令、语句和配置
 
 ### js
