@@ -4,7 +4,7 @@ sidebarDepth: 2
 
 ---
 
-# Features
+# 程序
 
 Meilisearch is a flexible and powerful user-focused search engine. Here are some of its major features.
 
