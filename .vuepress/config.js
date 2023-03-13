@@ -273,7 +273,7 @@ module.exports = {
               path: '/reference/api/overview',
             },
             '/reference/api/indexes',
-/*             '/reference/api/documents',
+            '/reference/api/documents',
             '/reference/api/search',
             '/reference/api/tasks',
             '/reference/api/keys',
@@ -281,10 +281,10 @@ module.exports = {
             '/reference/api/stats',
             '/reference/api/health',
             '/reference/api/version',
-            '/reference/api/dump', */
+            '/reference/api/dump',
           ],
         },
-/*         {
+        {
           title: '❌ Errors',
           path: '/reference/errors/overview.html',
           collapsable: false,
@@ -298,7 +298,7 @@ module.exports = {
               path: '/reference/errors/error_codes',
             },
           ],
-        }, */
+        },
       ],
     },
   },
