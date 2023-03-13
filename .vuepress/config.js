@@ -284,7 +284,7 @@ module.exports = {
             '/reference/api/dump', */
           ],
         },
-        {
+/*         {
           title: '❌ Errors',
           path: '/reference/errors/overview.html',
           collapsable: false,
@@ -298,7 +298,7 @@ module.exports = {
               path: '/reference/errors/error_codes',
             },
           ],
-        },
+        }, */
       ],
     },
   },
