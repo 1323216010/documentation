@@ -61,7 +61,6 @@ module.exports = {
               title: '网址导航',
               path: '/reference/api/overview',
             },
-            '/reference/api/indexes',
           ],
         },
       ],
