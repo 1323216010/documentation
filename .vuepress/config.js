@@ -47,7 +47,6 @@ module.exports = {
               title: 'Overview',
               path: '/learn/what_is_meilisearch/features',
             },
-            '/learn/what_is_meilisearch/features',
           ],
         },
       ],
